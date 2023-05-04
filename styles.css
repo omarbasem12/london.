@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+:root {
+  --white: #fff;
+  --gray: #c4c4c4;
+  --red: #851f26;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+
+  background-color: #1e2028;
+  font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+body {
+  overflow: auto;
+}
+
+
+
+main {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: var(--red);
+  font-size: 18px;
+
+
+}
+
+nav .nav-items {
+  list-style-type: none;
+  display: flex;
+}
+
+nav .nav-items .nav-item {
+  padding-left: 2rem;
+}
+
+.nav-item .nav-link {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+  color: --;
+  text-decoration: none;
+}
+
+nav .nav-items {
+  list-style-type: none;
+  display: flex;
+}
+
+nav .nav-items .nav-item {
+  padding-left: 2rem;
+}
+
+.nav-item .nav-link {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.nav-item .nav-link {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--white);
+}
+
+h1 {
+  color: var(--white);
+  font-size: xx-large;
+  margin-left: -500px;
+  margin-right: 300px;
+
+}
+
+img {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.features h3 {
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.features h6 {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.feature {
+  background-color: #252731;
+  display: flex;
+  border-radius: 3rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.feature .content {
+  padding: 4rem;
+  flex: 1;
+}
+
+.feature .content i {
+  color: var(--red);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.feature .content h2 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.feature .content p {
+  color: var(--gray);
+  font-size: 1.2rem;
+  width: 80%;
+  line-height: 2;
+}
+
+.feature img {
+  flex: 1;
+  max-width: 50%;
+
+}
+
+#top {
+  width: 70px;
+  height: 70px;
+  padding-top: 18px;
+  padding-left: 24px;
+  font-size: 30px;
+  background-color: #851f26;
+  color: white !important;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#top:hover {
+  scale: 115%;
+
+
+}
+
+#top:hover a {
+  color: var(--white);
+}
+
+#top a {
+  color: var(--gray);
+  transition: 0.2s;
+
+}
